@@ -1,0 +1,28 @@
+﻿<Window x:Class="ListBoxDragAndDrop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="250" Width="350" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+              xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        >
+    <StackPanel>
+        <TextBlock FontSize="14" Text="Hold Ctrl key while dragging to copy item." Margin="5"/>
+        <StackPanel Orientation="Horizontal">
+            <dxe:ListBoxEdit DisplayMember="Text" Height="150" HorizontalAlignment="Left" Name="listBoxEdit1" Margin="5,5,10,5" 
+                             VerticalAlignment="Top" Width="150" >
+                <dxmvvm:Interaction.Behaviors>
+                    <dxg:ListBoxDragDropManager/>
+                </dxmvvm:Interaction.Behaviors>
+
+            </dxe:ListBoxEdit>
+            <dxe:ListBoxEdit DisplayMember="Text" Height="150" HorizontalAlignment="Left" Name="listBoxEdit2" Margin="5,5,10,5"
+                             VerticalAlignment="Top" Width="150" >
+                <dxmvvm:Interaction.Behaviors>
+                    <dxg:ListBoxDragDropManager/>
+                </dxmvvm:Interaction.Behaviors>
+            </dxe:ListBoxEdit>
+        </StackPanel>
+    </StackPanel>
+</Window>
