@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/ListBoxDragAndDrop/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/ListBoxDragAndDrop/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/ListBoxDragAndDrop/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ListBoxDragAndDrop/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/ListBoxDragAndDrop/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ListBoxDragAndDrop/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to do drag and drop items from one ListBoxEdit to another
