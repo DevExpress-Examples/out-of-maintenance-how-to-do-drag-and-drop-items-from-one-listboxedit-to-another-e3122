@@ -8,7 +8,7 @@
 
 
 <p>This example shows how to implement the drag-and-drop functionality for ListBoxEdit.</p>
-<p>First of all, you need to set the <a href="http://documentation.devexpress.dev/#WPF/DevExpressXpfCoreDXFrameworkContentElement_AllowDroptopic"><u>AllowDrop</u></a> property to true, in order to let your editor to accept dropping. Next, you'll need implement four event handlers for the editor to manage the drag-and-drop process:</p>
+<p>First of all, you need to set the <strong>AllowDrop</strong> property to true, in order to let your editor to accept dropping. Next, you'll need implement four event handlers for the editor to manage the drag-and-drop process:</p>
 <p>1. <strong>MouseLeftButtonDown</strong> event handler. Within this handler, it is necessary to find out if the click occurred on a certain item. If so, the <strong>isDragStarted</strong> flag is set to True, to allow all the following processing.</p>
 <p>2. <strong>PreviewMouseMove</strong> event handler. If the <strong>isDragStarted</strong> flag is set to True, it then defines a dragged item and the dragging source object. Then, the <strong>DragDrop.DoDragDrop() </strong>method that initiates a drag-and-drop operation is invoked.</p>
 <p>3. <strong>DragOver</strong> event handler. Defines the behavior of a drag-and-drop operation: if the event's source object can accept a dragged object, the <strong>e.Effects</strong> property is set to the appropriate <strong>DragDropEffect</strong> value. Otherwise, it is set to the <strong>DragDropEffects.None</strong> value.</p>
