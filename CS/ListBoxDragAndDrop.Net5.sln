@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxDragAndDrop", "ListBoxDragAndDrop\ListBoxDragAndDrop.csproj", "{4B6E2866-234C-435C-B6E4-086FBC72ADC9}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxDragAndDrop", "ListBoxDragAndDrop\ListBoxDragAndDrop.Net5.csproj", "{4B6E2866-234C-435C-B6E4-086FBC72ADC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
